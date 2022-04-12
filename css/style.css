@@ -1,0 +1,178 @@
+h1, h2, h3{
+    font-family: 'Righteous', cursive;
+    color: #2B5241;
+}
+h1{
+    font-size: 126px;
+    margin: 0pt;
+    color: #2B5241;
+}
+h2{
+    font-size: 60px;
+    margin: 0pt;
+    color: #2B5241;
+}
+h3{
+    font-size: 40px;
+    margin: 0pt;
+    color: #2B5241;
+}
+h4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 32px;
+    margin: 0pt;
+    color: #2B5241;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-image: url('../Images/Hero\ Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620pt;
+}
+
+.Intro{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 10pt;
+    padding-top: 40pt;
+    padding-left: 10pt;
+    
+}
+h2, h1, h3{
+    padding: 10pt;
+}
+h4{
+    padding-top: 40pt;
+    padding: 10pt;
+}
+.Molecule{
+    margin-top: 17%;
+    margin-right: 10%;
+    justify-self: flex-end;
+}
+.two{
+    display: flex;
+    width: 100%;
+    background-color: #E2F0EA;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0%;
+    margin: 0%; 
+
+}
+.phoneImage{
+    margin-top: 15%;
+    margin-left: 10%;
+
+}
+.Information{
+    margin-top: 10%;
+    margin-right: 10%;
+    justify-self: flex-end;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+.extraBottom{
+    padding-bottom: 30pt;
+}
+.extraTop{
+    padding-top: 20pt;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    flex-grow: 2;
+    border: 2px solid #2B5241;
+    border-radius: 100px;
+    padding: 2px;
+    margin: 10px;
+    height: 30pt;
+    padding-left: 20pt;
+    background-color: #FFF5F1;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    height: 36pt;
+    background: #2B5241;
+    color:  #FFF5F1;
+    margin-left: -30pt;
+    border: 2px solid #2B5241;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+.enterEmail{
+    margin-top: -5px;
+    margin-left: 35px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+.three{
+    width: 100%;
+    background-color: #2B5241;
+    margin-top: -20px;
+}
+.Uses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.listRow{
+    color:  #FFF5F1;
+    font-family: 'Inconsolata', monospace;
+    font-size: 36px;
+    align-self: center;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #DEF2F8;
+    height: 620pt;
+    margin-top: -20px;
+    align-content: center;
+    justify-content: center;
+}
+.fourChild{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+.CurrentlyDetecting{
+    display: flex;
+    align-self: center;
+}
+.Detecting{ 
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    justify-content:center;
+    align-self: center;
+    font-size: 32px;
+    width: 600px;
+}
+.listWrap{
+    display: inline;
+    padding: 25px;
+    font-family: 'Inconsolata', monospace;
+}
